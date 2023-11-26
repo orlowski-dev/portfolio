@@ -1,0 +1,96 @@
+.hero {
+  background-image: url("/images/CurveLineTop.svg"),
+    url("/images/CurveLineBottom.svg");
+  background-size: 100% auto, 100% auto;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  box-shadow: inset 0 0 60px rgba(239, 239, 239, 0.3);
+  transition: padding 0.1s ease-in, background-size 0.1s ease-in;
+
+  .container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+
+    h1 {
+      font-weight: 900;
+      margin-bottom: 2%;
+    }
+    p {
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .hero {
+    background-size: 80% auto, 80% auto;
+    padding: 120px 0;
+  }
+  .hero .container {
+    h1 {
+      font-size: 2.875rem;
+    }
+    p {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .hero {
+    background-size: 90% auto, 90% auto;
+    margin: 24px;
+    margin-top: 0;
+    border-radius: 24px;
+    .container {
+      h1 {
+        font-size: 3.375rem;
+      }
+      p {
+        font-size: 1.375rem;
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero .container {
+    h1 {
+      font-size: 3.75rem;
+    }
+    p {
+      font-size: 1.625rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    background-size: 80% auto, 80% auto;
+    .container {
+      h1 {
+        font-size: 4.875rem;
+      }
+      p {
+        font-size: 2.25rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .hero {
+    background-size: 70% auto, 70% auto;
+    .container {
+      h1 {
+        font-size: 4.875rem;
+      }
+      p {
+        font-size: 2.25rem;
+      }
+    }
+  }
+}
