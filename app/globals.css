@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: var(--inter), sans-serif;
   outline: none !important;
+
+  --gray-1: #f1f2f6;
+  --primary-blue: #3742fa;
+  --blue-10: #ededff;
 }
 
 body {
