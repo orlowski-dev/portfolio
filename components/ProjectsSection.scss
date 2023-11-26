@@ -1,0 +1,18 @@
+.projects-section {
+  padding: 3.75rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .content {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 2.5rem;
+
+    .project-card:nth-child(even) {
+      .pc-content {
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+    }
+  }
+}
