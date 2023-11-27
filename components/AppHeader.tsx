@@ -8,7 +8,9 @@ export default function AppHeader() {
     <header className="app-header">
       <div className="container">
         <div>
-          <Image src="/logo.svg" height={24} width={42} alt="logo" priority />
+          <Link href="/">
+            <Image src="/logo.svg" height={24} width={42} alt="logo" priority />
+          </Link>
         </div>
         <div className="links">
           <Link

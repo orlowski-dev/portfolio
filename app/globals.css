@@ -10,6 +10,7 @@
   --gray-1: #f1f2f6;
   --primary-blue: #3742fa;
   --blue-10: #ededff;
+  --blue-30: #ddddff;
 }
 
 body {
@@ -28,4 +29,17 @@ h3,
 h4,
 p {
   margin-top: 0;
+}
+
+main {
+  animation: 0.2s fadeIn linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

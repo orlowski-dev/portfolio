@@ -3,16 +3,23 @@
   max-width: 1200px;
   margin: 0 auto;
 
+  h2 {
+    margin-bottom: 48px;
+  }
+
   .content {
     margin-top: 1.5rem;
     display: grid;
-    gap: 2.5rem;
+    gap: 1.5rem;
 
     .project-card:nth-child(even) {
       .pc-content {
         grid-column-start: 1;
         grid-row-start: 1;
       }
+    }
+    .project-card:last-child {
+      border-bottom: none;
     }
   }
 }

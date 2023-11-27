@@ -1,0 +1,25 @@
+.app-footer {
+  border-top: 1px solid var(--blue-10);
+  max-width: 1920px;
+  margin: 0 auto;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    p,
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary-blue);
+
+      svg {
+        color: black;
+      }
+    }
+  }
+}
