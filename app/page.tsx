@@ -4,6 +4,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import Link from "next/link";
 import "@/components/App.scss";
 import { FaArrowRight } from "react-icons/fa6";
+import TechnologiesSection from "@/components/TechnologiesSection";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           </div>
         }
       />
+      <TechnologiesSection />
     </main>
   );
 }

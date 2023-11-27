@@ -4,6 +4,7 @@
   align-items: center;
   border-bottom: 1px solid var(--blue-10);
   padding: 24px 0;
+  transition: gap 0.1s ease-in;
 
   img {
     max-width: 100%;
@@ -56,5 +57,11 @@
   .project-card {
     grid-template-columns: 45% calc(55% - 1.5rem);
     border-bottom: none;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .project-card {
+    gap: 48px;
   }
 }
