@@ -13,9 +13,11 @@ export default function TechnologyCard({
     <article className="technology-card">
       <Image src={logo} alt={name + " icon"} width={48} height={48} />
       <h3>{name}</h3>
-      <p>
-        <span className={"level-" + level}></span>
-      </p>
+      {level && (
+        <p>
+          <span className={"level-" + level}></span>
+        </p>
+      )}
     </article>
   );
 }

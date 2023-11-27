@@ -19,5 +19,36 @@
       margin-top: 12px;
       font-size: 1rem;
     }
+
+    p {
+      background-color: var(--gray-1);
+      width: 48px;
+      margin: 0 auto;
+      border-radius: 30px;
+      span {
+        display: block;
+        height: 8px;
+        border-radius: 30px;
+      }
+    }
+    .level-1 {
+      background-color: var(--blue-2);
+      width: 20%;
+    }
+    .level-2 {
+      background-color: var(--green-1);
+      width: 40%;
+    }
+    .level-3 {
+      background-color: var(--yellow-1);
+      width: 60%;
+    }
+    .level-4 {
+      background-color: var(--orange-1);
+      width: 80%;
+    }
+    .level-5 {
+      background-color: var(--red-1);
+    }
   }
 }
