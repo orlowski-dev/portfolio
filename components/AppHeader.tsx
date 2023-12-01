@@ -21,7 +21,7 @@ export default function AppHeader() {
           >
             <FaGithub />
           </Link>
-          <Link href="/" target="_blank" className="cv-link">
+          <Link href="/cv.pdf" target="_blank" className="cv-link">
             Moje CV
           </Link>
         </div>

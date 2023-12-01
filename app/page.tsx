@@ -1,4 +1,3 @@
-import AboutSection from "@/components/AboutSection";
 import Hero from "@/components/Hero";
 import ProjectsSection from "@/components/ProjectsSection";
 import Link from "next/link";
@@ -10,7 +9,6 @@ export default function App() {
   return (
     <main>
       <Hero />
-      <AboutSection />
       <ProjectsSection
         max={3}
         title="Ostatnie osobiste projekty"
