@@ -40,6 +40,21 @@ main {
   animation: 0.2s fadeIn linear;
 }
 
+.not-found {
+  padding: 1.5rem;
+  height: calc(100vh - 84px);
+  height: calc(100svh - 84px);
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+}
+
+.not-found {
+  font-size: 1.2rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
